@@ -57,17 +57,9 @@ The aforementioned CNN architecture can be graphically seen below.
 
 
 ## Datasets Used
-[Breast Cancer Wisconsin (Diagnostic):](https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+%28Diagnostic%29) 
-- This dataset is obtained from the UCI Machine Learning Repository and contains textual features that are computed from a digitised image of a Fine Needle Aspirate (FNA) of a breast mass. The features describe the characteristics of the cell nuclei present in the image, such as radius, texture, perimeter, area, smoothness, compactness, concavity, concave points, symmetry and fractal dimension.
-- It contains 357 Benign samples and 212 Malignant samples.
-
-[The Mini–MIAS Database of Mammograms:](http://peipa.essex.ac.uk/info/mias.html)
-- The Mammographic Image Analysis Society (MIAS) is an organisation of research groups based out of the UK interested in mammography research. They have put together a database of digital mammograms that have been padded and reduced to a 200-micron pixel edge such that all the images are of dimension 1024 x 1024.
-- It contains 56 Benign samples and 52 Malignant samples.
-
-[Mini-DDSM:](https://www.kaggle.com/datasets/cheddad/miniddsm)
-- The Mini-DDSM is a lightweight version of the popular but now obsolete DDSM (Digital Database for Screening Mammography) dataset. The DDSM database, which was compiled for research purposes by South Florida University, has 2,620 scanned film mammography studies organised into 43 volumes. Expert radiologists have recognised and annotated benign and malignant tumours in all mammograms.
-- It contains 2,728 Normal samples, 3,360 Benign samples and 3,596 Cancer samples.
+- [Breast Cancer Wisconsin (Diagnostic):](https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+%28Diagnostic%29) 357 Benign, 212 Malignant samples.
+- [The Mini–MIAS Database of Mammograms:](http://peipa.essex.ac.uk/info/mias.html) 56 Benign, 52 Malignant samples.
+- [Mini-DDSM:](https://www.kaggle.com/datasets/cheddad/miniddsm) 2728 Normal, 3360 Benign, 3596 Cancer samples.
 
 
 ## About the Author
