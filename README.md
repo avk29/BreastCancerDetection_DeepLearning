@@ -30,6 +30,15 @@ The aforementioned CNN architecture can be graphically seen below.
 ![CNN_Architecture](https://user-images.githubusercontent.com/66971874/182913879-6d6288bd-bea5-463c-ae23-1341cb9002b7.png)
 
 
+## Data Cleaning and Preprocessing
+- At the onset, it was observed that most of the images in the image datasets were not in a standardised format. The images contained noise in terms of annotations and artefacts which were introduced due to malfunctioning of the device and/or poor illumination.
+
+- Proceeding further, the annotated images were filtered out and the artefacts were eliminated by creating a uniform black background in a subset of the images.
+
+- These processes were manually performed (leading to fewer samples) and in the future I would like to automate them.
+
+
+
 ## Experimentation
 - Initially built a **Logistic Regression** based **Machine Learning model** using the numerical dataset with **~96% accuracy** (More details about the datasets used can be found in the end).
 
@@ -39,21 +48,13 @@ The aforementioned CNN architecture can be graphically seen below.
 ## Conclusion
 - My current work focused on automating the detection and classification of breast cancer in mammogram images using deep learning approaches.
 
-- Due to the unavailablity of large and noise-free datasets, my experimentation that was based on a limited number of samples, manual noise-removal methods and different combinations of optimisers achieved a **maximum accuracy** of **88.8%**
+- Due to the unavailablity of large and noise-free datasets, the experimentation that was based on a limited number of samples, manual noise-removal methods and different combinations of optimisers achieved a **maximum accuracy** of **88.8%**
 
 
 ## Future Directions
 - In the future, I would like to automate the noise-removal process using sophisticated image processing techniques based on Median filters and Gaussian filters to name a few.
 
 - The automation would lead to the generation of a large number of samples which would better train the CNN and ultimately lead to a better accuracy.
-
-
-## Data Cleaning and Preprocessing
-- At the onset, it was observed that most of the images in the image datasets were not in a standardised format. The images contained noise in terms of annotations and artefacts which were introduced due to malfunctioning of the device and/or poor illumination.
-
-- Proceeding further, the annotated images were filtered out and the artefacts were eliminated by creating a uniform black background in a subset of the images.
-
-- These processes were manually performed (leading to fewer samples) and in the future I would like to automate them.
 
 
 ## Datasets Used
